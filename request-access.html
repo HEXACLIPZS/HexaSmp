@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Request HexaSMP Access</title>
+<style>
+body{margin:0;background:#08111d;color:#fff;font-family:Arial,sans-serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+.card{max-width:520px;width:100%;background:#121c2c;border:1px solid #2b3b56;border-radius:20px;padding:28px;box-shadow:0 15px 45px #0008}
+h1{margin-top:0}p{color:#b9c5d8;line-height:1.5}
+label{display:block;margin:18px 0 7px;font-weight:700}
+input,textarea{width:100%;padding:13px;border-radius:10px;border:1px solid #3b4b68;background:#08111d;color:#fff;font-size:16px;box-sizing:border-box}
+button{width:100%;margin-top:22px;padding:14px;border:0;border-radius:10px;background:#20d58a;color:#06150f;font-weight:900;font-size:17px;cursor:pointer}
+.note{font-size:13px;color:#8493aa;margin-top:16px}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>🔐 Request HexaSMP Access</h1>
+<p>Want permission to start the HexaSMP server? Send your <strong>Aternos username</strong> to the server owner.</p>
+<form action="mailto:zyroflamex@gmail.com" method="post" enctype="text/plain">
+<label for="username">Aternos Username</label>
+<input id="username" name="Aternos Username" required placeholder="Enter your Aternos username">
+<label for="message">Message (optional)</label>
+<textarea id="message" name="Message" rows="4" placeholder="Anything you want to tell the server owner"></textarea>
+<button type="submit">📧 SEND ACCESS REQUEST</button>
+</form>
+<p class="note">Never enter your Aternos password. Only your Aternos username is needed.</p>
+</div>
+</body>
+</html>
